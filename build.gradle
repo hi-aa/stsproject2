@@ -32,6 +32,9 @@ dependencies {
 	implementation 'jakarta.servlet:jakarta.servlet-api'
 	implementation 'jakarta.servlet.jsp.jstl:jakarta.servlet.jsp.jstl-api'
 	implementation 'org.glassfish.web:jakarta.servlet.jsp.jstl'
+
+	implementation 'org.springframework.boot:spring-boot-starter-jdbc'
+	runtimeOnly 'com.h2database:h2'
 }
 
 tasks.named('test') {
